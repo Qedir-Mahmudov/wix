@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    border: 1px solid aliceblue;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.navyazi {
+    margin-top: 20px;
+}
+
+.navabout {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+
+p,
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+
+#sec1 {
+    display: flex;
+}
+
+video {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.mainyazi {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+#sec2 {
+    display: flex;
+    height: 100vh;
+}
+
+.sec2left {
+    height: 710px;
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.sec2left1 {
+    height: 710px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+.sec2left2 {
+    height: 710px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.sec2right {
+    height: 710px;
+    width: 650px;
+    background-color: rgb(174, 201, 186);
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.sec2buts {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+#sechelp {
+    background-color: rgb(178, 235, 235);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.helpboxs {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.freebox {
+    height: 400px;
+    width: 300px;
+    border: 5px solid;
+}
+
+.coachbox {
+    height: 400px;
+    width: 300px;
+    border: 5px solid;
+}
+
+.selfbox {
+    height: 400px;
+    width: 300px;
+    border: 5px solid;
+}
+
+
+
+
+
+
+#contact {
+    background-color: rgb(28, 156, 179);
+    width: 100%;
+    height: 600px;
+    border: 1px solid rgb(28, 156, 179);
+    display: flex;
+}
+
+.contaleft {
+    height: 600px;
+    width: calc(50% );
+
+    background-color: rgb(28, 156, 179);
+    border: 1px solid rgb(28, 156, 179);
+    text-align: center;
+}
+
+
+.contaleftt {
+    /*  margin-left: 300px; */
+
+}
+
+.contaicons {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.contaright {
+    height: 600px;
+    width: calc(50% );
+    background-color: rgb(23, 34, 36);
+
+}
+
+.contabuttons{
+    display: flex;
+    gap: 15px;
+    
+}
