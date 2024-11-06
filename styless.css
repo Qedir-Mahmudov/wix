@@ -5,8 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    text-decoration: none;
 }
-
+a{
+    color: inherit;
+}
 header {
     border: 1px solid aliceblue;
     position: fixed;
@@ -43,6 +46,59 @@ h1 {
     text-align: center;
 }
 
+
+
+@media screen and (max-width: 600px) {
+  /*   .left, .main, .right {
+      width: 100%; 
+    } */
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navabout{
+        display: none;
+    }
+    .hambirger{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        margin-top: 30px;
+    }
+      .ham1{
+        height: 3px;
+        width: 20px;
+        background-color: black;
+      }
+      .ham2{
+        height: 3px;
+        width: 20px;
+        background-color: black;
+      }
+      .ham3{
+        height: 3px;
+        width: 20px;
+        background-color: black;
+      }
+    
+#sec2{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+
+
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+  }
 
 
 
@@ -85,15 +141,15 @@ video {
     display: flex;
 }
 
-.sec2left1 {
+/* .sec2left1 {
     height: 710px;
     width: 300px;
     background-color: rgb(255, 255, 255);
-}
+} */
 
 .sec2left2 {
-    height: 710px;
-    width: 600px;
+    /* height: 710px;
+    width: 600px; */
     background-color: rgb(255, 255, 255);
 
 }
@@ -193,7 +249,12 @@ img {
 .contaright {
     height: 600px;
     width: calc(50% );
-    background-color: rgb(23, 34, 36);
+    background-color: rgb(28, 156, 179);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  
 
 }
 
@@ -202,3 +263,8 @@ img {
     gap: 15px;
     
 }
+.contabut{
+    
+    /* transform: translateX(200px); */
+}
+
