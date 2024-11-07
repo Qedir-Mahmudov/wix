@@ -1,0 +1,122 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    header {
+        border: 1px solid aliceblue;
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+    
+    }
+    
+    .navbar {
+        height: 100px;
+        width: 100%;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-around;
+    
+    
+    
+    }
+    
+    .navyazi {
+        margin-top: 20px;
+    }
+    
+    .navabout {
+        display: flex;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    
+    
+    
+    p,
+    h1 {
+        text-align: center;
+    }
+    
+    
+    #contact {
+        background-color: rgb(28, 156, 179);
+        width: 100%;
+        height: 600px;
+        border: 1px solid rgb(28, 156, 179);
+        display: flex;
+    }
+    
+    .contaleft {
+        height: 600px;
+        width: calc(50% );
+    
+        background-color: rgb(28, 156, 179);
+        border: 1px solid rgb(28, 156, 179);
+        text-align: center;
+    }
+    
+    
+    .contaleftt {
+        /*  margin-left: 300px; */
+    
+    }
+    
+    .contaicons {
+        display: flex;
+        gap: 10px;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    
+    .contaright {
+        height: 600px;
+        width: calc(50% );
+        background-color: rgb(28, 156, 179);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+      
+    
+    }
+    
+    .contabuttons{
+        display: flex;
+        gap: 15px;
+        
+    }
+    
+    @media screen and (max-width: 600px) {
+        /*   .left, .main, .right {
+            width: 100%; 
+          } */
+          .navbar{
+              display: flex;
+              flex-wrap: wrap;
+          }
+          .navabout{
+              display: none;
+          }
+          .hambirger{
+              display: flex;
+              flex-direction: column;
+              gap: 2px;
+              margin-top: 30px;
+          }
+            .ham1{
+              height: 3px;
+              width: 20px;
+              background-color: black;
+            }
+            .ham2{
+              height: 3px;
+              width: 20px;
+              background-color: black;
+            }
+            .ham3{
+              height: 3px;
+              width: 20px;
+              background-color: black;
+            }
+        }

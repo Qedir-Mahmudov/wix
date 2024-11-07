@@ -86,3 +86,37 @@ h1 {
     gap: 15px;
     
 }
+
+@media screen and (max-width: 600px) {
+    /*   .left, .main, .right {
+        width: 100%; 
+      } */
+      .navbar{
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .navabout{
+          display: none;
+      }
+      .hambirger{
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+          margin-top: 30px;
+      }
+        .ham1{
+          height: 3px;
+          width: 20px;
+          background-color: black;
+        }
+        .ham2{
+          height: 3px;
+          width: 20px;
+          background-color: black;
+        }
+        .ham3{
+          height: 3px;
+          width: 20px;
+          background-color: black;
+        }
+    }
